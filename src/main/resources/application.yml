@@ -1,0 +1,13 @@
+server:
+  port: 8094
+spring:
+  data:
+    mongodb:
+      # atlas
+      uri: "mongodb+srv://rommel:proyectobootcamp@bootcamp.9fgvk.mongodb.net/bootcamp?retryWrites=true&w=majority"
+
+
+application:
+    endpoints:
+        url:
+            valid_address: http://localhost:8093/api/accounttype
