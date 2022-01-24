@@ -12,5 +12,4 @@ import lombok.Setter;
 public class Accounttype {
   private String id;
   private String type;
-  private Boolean status;
 }

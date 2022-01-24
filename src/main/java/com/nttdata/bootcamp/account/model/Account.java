@@ -19,7 +19,9 @@ public class Account {
   @Id
   private String id = UUID.randomUUID().toString();
   private String numberaccount;
+  private String type;
   private Date date;
   private Double balance;
   private Accounttype accounttype;
+  private Banckaccount banckaccount;
 }

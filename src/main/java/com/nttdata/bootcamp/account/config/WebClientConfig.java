@@ -9,7 +9,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
 public class WebClientConfig {
-  
+
   @Value("${application.endpoints.url.valid_address}")
   private String urlEndpoint;
 
